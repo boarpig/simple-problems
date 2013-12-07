@@ -1,4 +1,4 @@
-#!/usr/share/python
+#!/usr/bin/python
 #
 # Write a program that prints ‘Hello World’ to the screen.
 # 
