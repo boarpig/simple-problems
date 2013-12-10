@@ -4,7 +4,10 @@ one:
 two:
 	gcc lists2.c --std=c99 -Wall -lm -o lists2.o
 
-all: one two
+three:
+	gcc lists3.c --std=c99 -Wall -o lists3.o
+
+all: one two three
 
 clean:
 	rm *.o
