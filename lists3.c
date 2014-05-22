@@ -13,6 +13,7 @@ int main() {
 }
 
 bool in_list(int number, int list[], int list_size) {
+    // Write a function that checks whether an element occurs in a list.
     int i;
     bool found = false;
     for (i = 0; i < list_size; i++) {
